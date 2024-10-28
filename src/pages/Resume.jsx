@@ -1,8 +1,10 @@
+import '../styles/Resume.css';
+
 
 function Resume () {
     return (
-        <div className="body">
-            <a href="../assets/cv.pdf" download="cv.pdf">Chris Groth - Downloadable Resume</a>
+        <div className="resume">
+            <a href="../assets/cv.pdf" download="groth.cv.pdf">Chris Groth - Downloadable Resume</a>
             <h3>Proficiencies</h3>
             <ul>
                 <li>HTML</li>

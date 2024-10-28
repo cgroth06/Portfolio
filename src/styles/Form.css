@@ -1,5 +1,57 @@
+.body {
+    background-color: rgb(195 154 76 / 70%);
+  }
+
 .form {
     display: flex;
     flex-direction: column;
+    padding-right: 40px;
+    padding-left: 40px;
+    
 }
 
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #272527;
+    background-color: slategrey;
+    color: rgb(226, 225, 228);
+}
+
+input::placeholder {
+    color: rgb(226, 225, 228);
+}
+
+textarea {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #272527;
+    background-color: slategrey;
+    color: rgb(226, 225, 228);
+}
+
+textarea::placeholder {
+    color: rgb(226, 225, 228);
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #272527;
+    background-color: #272527;
+    color: rgb(226, 225, 228);
+    background-color: rgb(45, 46, 47);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+}

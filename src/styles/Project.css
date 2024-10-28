@@ -1,4 +1,6 @@
-
+.body {
+    background-color: rgb(195 154 76 / 70%);
+  }
 
 .portfolio {
     display: flex;
@@ -9,7 +11,20 @@
 
 .project {
     margin: 20px;
-    padding: 20px;
+    color: #272527;
+    padding: 0px;
     height: 200px;
     width: 300px;
+    border-radius: 5px;
+    border: 1px solid #272527;
+    box-shadow: 3px 3px 10px;
+    overflow: hidden;
+    
+}
+
+.h2 {
+    padding: 20px;
+    font-size: 1.5em;
+    margin: 0px;
+    color: #272527;
 }

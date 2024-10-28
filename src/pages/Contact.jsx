@@ -62,22 +62,22 @@ function Contact() {
   };
 
   return (
-    <div className="container text-center">
-      <h1>Contact Us</h1>
+    <div className="body">
+      <h2>Contact Us</h2>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
         />
         <input
           value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
+          placeholder="Name"
         />
         <textarea
           value={message}
