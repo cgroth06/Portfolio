@@ -1,0 +1,15 @@
+
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+}
