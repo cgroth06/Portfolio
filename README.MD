@@ -35,7 +35,7 @@ NA
 
 ## License
 
-![MIT License](assets/mit.svg)
+![MIT License](./src/assets/mit.svg)
 
 The MIT License
 
