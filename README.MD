@@ -19,7 +19,7 @@ Once the repository is downloaded, 'npm i' to install and 'npm run dev' to test.
 
 ## Usage
 
- heHere is a link to the delopyed portfolio. 
+ [Here is a link to the delopyed portfolio](https://grothchris.netlify.app/Resume)
 
 ## Contributions
 
