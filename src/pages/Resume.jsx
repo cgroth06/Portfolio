@@ -3,7 +3,7 @@ import '../styles/Resume.css';
 
 function Resume () {
     return (
-        <div className="resume">
+        <div className="resume" style={{minHeight: "calc(100vh - 260px)"}}>
             
             <h3>Proficiencies</h3>
             <ul>

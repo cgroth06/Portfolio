@@ -3,7 +3,7 @@ import headshot from '../assets/headshot.jpeg';
 
 export default function About() {
     return (
-      <div className = "about">
+      <div className = "about" style={{minHeight: "calc(100vh - 260px)"}}>
         <div><img src = {headshot} alt = "Chris Groth" style={{ borderRadius: "100px", height:"200px"}} /></div>
         <p className = "p">
           Chris Groth is a full stack developer with a passion for problem solving, learning, 

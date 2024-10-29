@@ -1,6 +1,7 @@
 a {
     text-decoration: none;
     color: black;
+    
 }
 
 .resume {
@@ -17,4 +18,12 @@ a {
 .p {
     padding: 20px;
     text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -52,7 +52,7 @@ function Contact() {
   };
 
   return (
-    <div className="body">
+    <div className="body" style={{minHeight: "calc(100vh - 270px)"}}>
       <h2>Contact Us</h2>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
