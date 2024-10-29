@@ -10,6 +10,7 @@
 }
 
 .project {
+    position: relative; /* Important for the overlay positioning */
     margin: 20px;
     color: #272527;
     padding: 0px;
@@ -19,8 +20,50 @@
     border: 1px solid #272527;
     box-shadow: 3px 3px 10px;
     overflow: hidden;
-    
 }
+
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(181, 182, 173, 0.877); /* Semi-transparent overlay */
+    display: flex; /* Center text */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.project:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.text {
+    color: rgb(65, 61, 61); /* Text color on overlay */
+    font-size: 1.2em; /* Adjust font size as needed */
+    text-align: center; /* Center text */
+}
+
+.pendingproject {
+    margin: 20px;
+    color: #272527;
+    background-color: #c1bbc1;
+    text-align: center;
+    align-items: center;
+    padding: 65px;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #272527;
+    box-shadow: 3px 3px 10px;
+    overflow: hidden;
+}
+
+
 
 .h2 {
     padding: 20px;
