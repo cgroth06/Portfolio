@@ -15,6 +15,7 @@ const styles = {
     textAlign: "center",
     alignContent: "center",
     color: 'rgba(228, 221, 221, 0.674)',
+    borderTop: 'solid 10px rgb(195 154 76 / 70%)',
   }
 };
 

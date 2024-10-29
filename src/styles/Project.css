@@ -46,6 +46,7 @@
     color: rgb(65, 61, 61); /* Text color on overlay */
     font-size: 1.2em; /* Adjust font size as needed */
     text-align: center; /* Center text */
+    padding: 10px; /* Add some padding */
 }
 
 .pendingproject {
