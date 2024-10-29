@@ -1,8 +1,8 @@
 
-function Project () {
+function Project() {
     return (
         <nav classname="body">
-            
+
         </nav>
     );
 }

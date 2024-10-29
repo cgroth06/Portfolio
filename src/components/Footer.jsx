@@ -19,21 +19,21 @@ const styles = {
   }
 };
 
-function Footer () {
+function Footer() {
   return (
-      <nav style={styles.footerStyle} className="footer">
-          <ul style={styles.navigationStyle}> 
-            <a href="https://www.linkedin.com/in/chris-groth"> 
-              <img src={linkedinImg} alt="LinkedIn" style={{margin: "10px",backgroundColor: "transparent", width: "42px", height: "42px"}} />
-            </a>
-            <a href="https://github.com/cgroth06">
-              <img src={githubImg} alt="GitHub" style={{backgroundColor: "transparent", width:"42px", height:"42px"}} />
-            </a>
-            <a href="https://www.instagram.com/chris__groth/">
-              <img src={instaImg} alt="Instagram" style={{backgroundColor: "transparent", width:"62px", height:"42px"}} />
-            </a>
-          </ul>
-      </nav>
+    <nav style={styles.footerStyle} className="footer">
+      <ul style={styles.navigationStyle}>
+        <a href="https://www.linkedin.com/in/chris-groth">
+          <img src={linkedinImg} alt="LinkedIn" style={{ margin: "10px", backgroundColor: "transparent", width: "42px", height: "42px" }} />
+        </a>
+        <a href="https://github.com/cgroth06">
+          <img src={githubImg} alt="GitHub" style={{ backgroundColor: "transparent", width: "42px", height: "42px" }} />
+        </a>
+        <a href="https://www.instagram.com/chris__groth/">
+          <img src={instaImg} alt="Instagram" style={{ backgroundColor: "transparent", width: "62px", height: "42px" }} />
+        </a>
+      </ul>
+    </nav>
   );
 }
 

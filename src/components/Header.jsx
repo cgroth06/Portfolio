@@ -10,9 +10,9 @@ const styles = {
     backgroundPosition: "top",
     height: 200,
     borderBottom: 'solid 10px rgb(195 154 76 / 70%)',
-    
+
   },
-  
+
   headingStyle: {
     fontSize: '50px',
   },
@@ -23,7 +23,7 @@ function Header() {
   return (
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.headingStyle}>Chris Groth</h1>
-      <Navigation /> 
+      <Navigation />
     </header>
   );
 }
