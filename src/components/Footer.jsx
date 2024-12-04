@@ -24,13 +24,13 @@ function Footer() {
     <nav style={styles.footerStyle} className="footer">
       <ul style={styles.navigationStyle}>
         <a href="https://www.linkedin.com/in/chris-groth">
-          <img src={linkedinImg} alt="LinkedIn" style={{ margin: "10px", backgroundColor: "transparent", width: "42px", height: "42px" }} />
+          <img src={linkedinImg} alt="LinkedIn" style={{ marginTop: "15px", margin: "10px", backgroundColor: "transparent", height: "35px" }} />
         </a>
         <a href="https://github.com/cgroth06">
-          <img src={githubImg} alt="GitHub" style={{ backgroundColor: "transparent", width: "42px", height: "42px" }} />
+          <img src={githubImg} alt="GitHub" style={{ backgroundColor: "transparent", height: "30px" }} />
         </a>
         <a href="https://www.instagram.com/chris__groth/">
-          <img src={instaImg} alt="Instagram" style={{ backgroundColor: "transparent", width: "62px", height: "42px" }} />
+          <img src={instaImg} alt="Instagram" style={{ backgroundColor: "transparent", width: "50px", height: "30px" }} />
         </a>
       </ul>
     </nav>
