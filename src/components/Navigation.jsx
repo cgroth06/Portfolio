@@ -9,7 +9,7 @@ const styles = {
         bottom: 10,
         right: 0,
         fontSize: '20px',
-        color: 'rgb(195 154 76 / 70%)',
+        color: 'rgba(235, 235, 240, 0.635)',
         textDecoration: 'none',
         listStyleType: 'none',
 
@@ -19,11 +19,11 @@ const styles = {
         marginRight: '20px',
         textDecoration: 'none',
         listStyleType: 'none',
-        color: 'rgb(195 154 76 / 70%)',
+        color: 'rgba(235, 235, 240, 0.635)',
 
     },
     activeLink: {
-        color: 'rgb(195 154 76 / 100%)',
+        color: 'rgba(235, 235, 240, 0.635)',
         fontWeight: 'bold',
     }
 };

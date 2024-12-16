@@ -5,7 +5,7 @@ import cedar from '../assets/cedar.png';
 import githubImg from '../assets/github.png';
 import readme from '../assets/readme.png';
 import aline from '../assets/HomePage.png';
-
+import artvine from '../assets/artvine.png';
 
 
 function Portfolio() {
@@ -14,7 +14,12 @@ function Portfolio() {
             <h2 className="h2">Portfolio</h2>
             <div className="portfolio">
 
-
+            <div className="project" style={{ backgroundImage: `url(${artvine})`, backgroundSize: "cover" }}>
+                    <div className="overlay">
+                        <a className="text" href="https://artvine.onrender.com/">ArtVine</a>
+                        <a className="text" href="https://github.com/cgroth06/ArtVine"><img src={githubImg} alt="GitHub" style={{ height: "20px" }}></img></a>
+                    </div>
+                </div>
                 <div className="project" style={{ backgroundImage: `url(${timer})`, backgroundSize: "contain" }}>
                     <div className="overlay">
                         <a className="text" href="https://cgroth06.github.io/Themed-Timer/">Themed-Timer</a>
@@ -41,11 +46,6 @@ function Portfolio() {
                     <div className="overlay">
                         <a className="text" href="https://www.chrisgroth.com/?lightbox=dataItem-lmmhusu34">Abscents Cedar </a>
                     </div>
-                </div>
-                <div className="pendingproject" >
-
-                    <p className="text">coming soon...</p>
-
                 </div>
             </div>
         </div>

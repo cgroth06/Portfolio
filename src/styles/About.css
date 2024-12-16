@@ -6,9 +6,10 @@
     padding-bottom: 150px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(195 154 76 / 70%);
+    background-color: rgba(11, 11, 12, 0.885);
 }
 .p {
     padding: 20px;
     text-align: justify;
+    color: rgba(235, 235, 240, 0.635)
 }

@@ -9,7 +9,7 @@ const styles = {
     backgroundSize: "cover",
     backgroundPosition: "top",
     height: 200,
-    borderBottom: 'solid 10px rgb(195 154 76 / 70%)',
+    borderBottom: 'solid 10px rgba(235, 235, 240, 0.635)',
 
   },
 
