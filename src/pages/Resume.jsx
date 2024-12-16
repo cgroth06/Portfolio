@@ -16,7 +16,7 @@ function Resume () {
                 <li>Adobe Creative Suite</li>
             </ul>
             <br></br>
-            <a href="../assets/cv.pdf" download="grothcv.pdf">Chris Groth - Downloadable Resume</a>
+            <a href="/assets/cv.pdf" download="grothcv.pdf">Chris Groth - Downloadable Resume</a>
         </div>
     );
 }
