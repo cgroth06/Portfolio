@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
-import grindinghead from '../assets/grindinghead.jpeg';
+import grindinghead from '../assets/grindingbw.png';
 import Navigation from './Navigation';
 
 const styles = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
-import grindinghead from '../assets/grindinghead.jpeg';
+import grindinghead from '../assets/grindingbw.png';
 import linkedinImg from '../assets/linkedin.png';
 import githubImg from '../assets/github.png';
 import instaImg from '../assets/insta.png';
